@@ -1,0 +1,51 @@
+name: Device / folding issue
+description: Report a problem with the effect, hinge sensor or display handover.
+title: '[Device] '
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device, Android and One UI versions
+      placeholder: Fold model / Android version / One UI version
+    validations:
+      required: true
+  - type: input
+    id: app_version
+    attributes:
+      label: Fold Glass version
+      placeholder: 0.3.0 alpha
+    validations:
+      required: true
+  - type: dropdown
+    id: screen
+    attributes:
+      label: Where does it happen?
+      options:
+        - Cover screen
+        - Inner screen
+        - Switching between screens
+        - Both screens
+    validations:
+      required: true
+  - type: dropdown
+    id: replay
+    attributes:
+      label: Does double-tapping replay the effect?
+      options:
+        - 'Yes'
+        - 'No'
+        - Not tested
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Steps, expected behavior and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: In-app diagnostics
+      description: Long-press after reproducing, copy the report, review it, then paste it here. Do not include unrelated private logs.
+      render: text
