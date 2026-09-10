@@ -19,6 +19,17 @@ The timed reveal is a presentation effect, not a reconstructed measurement of th
 
 ## Try it
 
+Choose a demo:
+
+| Version | Controls | Download |
+| --- | --- | --- |
+| 0.3 alpha | Fullscreen; double-tap replay and long-press diagnostics | [Fullscreen APK](https://github.com/SimonCym/fold-glass/releases/download/v0.3.0-alpha/FoldGlass-0.3-debug.apk) |
+| 0.1 original prototype | Visible opening angle in degrees (0–180°), manual slider and optional hinge sensor | [APK with controls](https://github.com/SimonCym/fold-glass/releases/download/v0.3.0-alpha/FoldGlass-0.1-debug.apk) · [0.1 source](https://github.com/SimonCym/fold-glass/releases/download/v0.3.0-alpha/FoldGlass-0.1-source.zip) |
+
+The 0.1 files are archived alternatives attached to the 0.3 release for comparison. Its indicator shows **degrees, not a percentage**, and it does not include the 0.3 display-appearance reveal. Both APKs use the same app ID, so they cannot be installed side by side. To return from 0.3 to 0.1 using the Android installer, uninstall 0.3 first (this resets app data). The repository and GitHub-generated source archives describe 0.3; use the explicitly named 0.1 source ZIP for the earlier implementation.
+
+For the fullscreen version:
+
 1. Download the `FoldGlass-0.3-debug.apk` attachment from the alpha release.
 2. Install it on Android 13 or later and open **Fold Glass**.
 3. Watch the initial reveal, then fold and unfold with the app in the foreground.

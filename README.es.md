@@ -4,6 +4,12 @@ Demo nativa a pantalla completa. La escena ocupa toda la ventana: sin título, m
 
 ## Instalar y usar
 
+También está disponible la **primera versión 0.1 con controles**: [descargar APK](https://github.com/SimonCym/fold-glass/releases/download/v0.3.0-alpha/FoldGlass-0.1-debug.apk) · [código fuente 0.1](https://github.com/SimonCym/fold-glass/releases/download/v0.3.0-alpha/FoldGlass-0.1-source.zip). Muestra la apertura en **grados (0–180°), no en porcentaje**, con deslizador manual y sensor opcional. Se conserva como alternativa histórica en la release 0.3 y no incluye el nuevo revelado al aparecer la pantalla.
+
+Las dos APK usan el mismo identificador de app y no se instalan juntas. Para volver de 0.3 a 0.1 desde el instalador de Android, desinstala primero la 0.3; esto borra los datos de la app. El código del repositorio y los archivos fuente automáticos de GitHub corresponden a 0.3; para la primera versión usa el ZIP llamado `FoldGlass-0.1-source.zip`.
+
+Para la versión 0.3 a pantalla completa:
+
 1. Copia `FoldGlass-0.3-debug.apk` al teléfono Android 13 o superior y ábrela. Conserva el certificado de 0.2 para permitir actualizarla.
 2. Abre **Fold Glass**: empieza un revelado de cristal de 1,8 segundos desde la primera imagen visible.
 3. Abre y cierra el teléfono con la app en primer plano. El sensor se registra automáticamente si está disponible.
